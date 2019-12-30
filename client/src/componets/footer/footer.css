@@ -1,0 +1,11 @@
+.footer{
+    height: 100%;
+}
+
+.footer>p{
+    margin: 0;
+    position: relative;
+    top:50%;
+    transform: translateY(-50%);
+    font-size: xx-large
+}

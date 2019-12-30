@@ -1,0 +1,45 @@
+.addVacation input,
+.addVacation button,
+.addVacation textarea {
+    width: 300px;
+    border-radius: 10px;
+    font-size: 15px;
+    border: 1px solid black;
+    margin: 0;
+}
+
+.addVacation {
+    overflow: auto;
+    position: relative;
+}
+
+.newVacation {
+    border: solid 2px blanchedalmond;
+    box-sizing: border-box;
+    margin: auto;
+    border-radius: 10px;
+    height: auto;
+    width: 380px;
+    background-color: maroon;
+    position: relative;
+}
+
+
+.addVacation span {
+    color: brown;
+    font-weight: bold;
+    position: absolute;
+    font-size: x-large;
+    margin: 2px;
+    transform: translateX(50px) translateY(-15px);
+}
+
+.addVacation button {
+    margin-left: 12px;
+    margin: 10px
+}
+
+label {
+    font-weight: bold;
+    font-size: x-large;
+}

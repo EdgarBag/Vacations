@@ -1,0 +1,26 @@
+.layout{
+    height: 100%;
+    border:1px solid black;
+    background: url("http://cdn.cnn.com/cnnnext/dam/assets/190517174512-15-summer-travel-tahiti.jpg")no-repeat;
+    background-size: cover;
+    text-align: center;
+    box-sizing: border-box;
+    display: grid;
+    grid-template-rows:10%  83% 7%;
+    grid-template-columns: repeat(12,1fr);
+    overflow: auto;
+}
+
+.layout>header {
+    border: 1px solid black;
+    grid-column: span 12;
+}
+.layout>main {
+    border: 1px solid black;
+    grid-column: span 12;
+}
+.layout>footer {
+    border: 1px solid black;
+    grid-column: span 12;
+}
+

@@ -1,0 +1,21 @@
+.left,
+.right {
+    border-radius: 100px;
+    width: 400px
+}
+
+iframe {
+    margin: 10px
+}
+
+
+.page404 {
+    overflow: auto;
+    position: relative
+}
+
+.rowForPage404 {
+    width: 90%;
+    margin: auto;
+    margin-left: 5%;
+}

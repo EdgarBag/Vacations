@@ -1,0 +1,36 @@
+.linkNewUser {
+    color: black;
+    font-size: x-large;
+}
+
+.login input,
+.login button {
+    width: 300px;
+    border-radius: 13px;
+    font-size: x-large;
+    border: 1px solid black;
+    margin: 5px;
+    position: relative;
+    margin-right: 10px
+}
+
+.login button {
+    margin-left: 120px
+}
+
+a:hover {
+    color: seashell;
+
+}
+
+.login a {
+    color: whitesmoke
+}
+
+.login span {
+    color: brown;
+    font-weight: bold;
+    position: absolute;
+    font-size: x-large;
+    margin: 2px;
+}

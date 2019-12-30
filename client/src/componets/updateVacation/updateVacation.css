@@ -1,0 +1,82 @@
+.updateVacation input,
+.updateVacation button,
+.updateVacation textarea {
+    width: 300px;
+    border-radius: 10px;
+    font-size: large;
+    border: 1px solid black;
+    margin: 0;
+    position: relative;
+}
+
+.updateVacation span {
+    position: absolute;
+    font-size: larger;
+    margin: 0;
+    transform: translateX(10px) translateY(-5px);
+}
+
+.backToAllVacations {
+    font-size: x-large;
+    color: cornsilk;
+}
+
+label {
+    font-weight: bold;
+    font-size: x-large;
+}
+
+.updateVacation {
+    overflow: auto;
+    height: 100%;
+    margin-left: 100px;
+    margin-right: auto;
+    position: relative;
+
+}
+
+.vacationDivOld {
+    border: solid 2px blanchedalmond;
+    float: left;
+    box-sizing: border-box;
+    padding: 3px;
+    margin: 2px;
+    border-radius: 10px;
+    background-color: maroon;
+}
+
+textarea {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    height: 36px;
+}
+
+
+.vacationTochange {
+    border: solid 2px blanchedalmond;
+    float: right;
+    box-sizing: border-box;
+    padding: 3px;
+    margin: auto;
+    border-radius: 10px;
+    height: auto;
+    background-color: maroon;
+    width: 360px;
+}
+
+.selectedVacation {
+    float: left;
+    margin-left: 300px
+}
+
+.insertUpdates {
+    float: right;
+    margin-right: 300px;
+}
+
+.updateVacation span {
+    color: brown;
+    position: absolute;
+    font-size: x-large;
+    margin: 5px;
+}

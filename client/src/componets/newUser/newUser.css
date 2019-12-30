@@ -1,0 +1,26 @@
+.newUser input,
+.newUser button {
+    width: 300px;
+    border-radius: 10px;
+    font-size: x-large;
+    border: 1px solid black;
+    margin: 5px;
+    position: relative;
+}
+
+.newUser span {
+    color: brown;
+    position: absolute;
+    font-size: x-large;
+    font-weight: bold;
+    margin: 5px;
+}
+
+.newUser button {
+    margin-left: 120px
+}
+
+label {
+    font-weight: bold;
+    font-size: x-large;
+}
